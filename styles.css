@@ -1,0 +1,171 @@
+
+#navbar{
+    height:100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+.img_logo{
+    width:6vw;
+    padding-left: 10px;
+}
+.nav_options{
+  width:40vw;
+  font-size:18px;
+   display: flex;
+   justify-content: space-around;
+}
+.nav_options>a{
+    text-decoration: none;
+    font-style:italic;
+    font-weight:300;
+    color:black;
+}
+.nav_options>a:hover{
+    color:rgba(230, 230, 7, 0.827)
+}
+.hero{
+    height:77vh;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+.hero>h1{
+    padding-top:170px;
+    font-size:50px;
+}
+.hero>h2{
+    padding-bottom:20px;
+}
+.yellow_button{
+    background-color: rgb(209, 156, 11);
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+   
+    
+}
+.orange_button{
+    border:1px solid rgb(221, 189, 7);
+    border-radius:20px;
+    padding:10px 20px 10px 20px;
+    
+}
+#grandparent1{
+    padding: 0px 100px 0px 100px;
+}
+#parent1{
+    height:330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p1c{
+    height:37vh;
+    width:26vw;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+}
+.p1c>img{
+    width:13vh;
+    padding: 20px 0px 0px 130px;
+}
+.p1c>h1{
+    text-align: center;
+    font-size: 22px;
+}
+.p1c>h3{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    font-weight:100;
+}
+#grandparent2{
+   
+    padding: 0px 100px 0px 100px;
+
+}
+#parent2{
+   height:110vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+}
+.p2c{
+    background-color: white;
+    width:19vw;
+    height:49vh;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px; 
+}
+.p2c>img{
+    width:17vw;
+    height:33vh;
+    padding:16px 0px 0px 16px;
+    border-radius:20px;
+}
+.p2c>h3{
+    padding-left: 20px;
+    font-weight: 100;
+}
+.p2c>p{
+    padding-left: 20px;
+    color: orange;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(64, 64, 67);
+    height:165px;
+    text-align: center;
+    color: white;
+}
+.footer>p{
+    font-size:17px;
+}
+.footer>h3{
+    font-size: 16px;
+}
+
+    
+    
+
+.parent4{
+    height: 500px;
+    background-color: red;
+}
+.pc41,.pc42{
+    height: 50px;
+    width: 20px;
+    background-color: aqua;
+    border-radius: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
